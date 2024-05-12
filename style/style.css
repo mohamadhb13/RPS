@@ -1,6 +1,84 @@
+@font-face {
+  font-family: poppinsBold;
+  src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+
 :root {
 }
 
 * {
   box-sizing: border-box;
 }
+
+body{
+  background-color: #3B2A9F;
+  color :white;
+  font-size: 36px;
+  font-weight: 700px;
+  font-family: poppinsBold;
+}
+
+.countainer{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.turn, .scores, .result {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.pictures{
+  display: flex;
+  justify-content: center ;
+}
+
+.picture{
+ margin-right: 0;
+ text-align: center;
+ justify-content: center;
+}
+
+.choice{
+  background-color: #FA8305;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 10px auto;
+  padding-top: 12px;
+}
+
+.chosen{
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.startdiv{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.start{
+  width: 252PX;
+  height: 64px;
+  background-color: #3B2A9F;
+  border: 3px #fff solid;
+  border-radius: 16px;
+  /* padding: 20px; */
+  font-family: poppinsBold;
+  color: #fff;
+  font-size: 36px;
+}
+
+
+
+
+
+

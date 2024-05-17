@@ -35,13 +35,16 @@ body{
 .pictures{
   display: flex;
   justify-content: center ;
+  gap: 36px;
 }
 
 .picture{
- margin-right: 0;
+
  text-align: center;
  justify-content: center;
 }
+
+
 
 .choice{
   background-color: #FA8305;
@@ -49,10 +52,18 @@ body{
   height: 50px;
   border-radius: 100%;
   margin: 10px auto;
-  padding-top: 12px;
+  display: block;
+  border: 0;
+}
+
+
+
+.choice:active .chosen{
+  display: block;
 }
 
 .chosen{
+  display: none;
   background-color: #fff;
   width: 26px;
   height: 26px;

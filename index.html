@@ -14,38 +14,41 @@
     <div class="countainer">
       
       <div class="result">
-        <p>Rock Paper Scissors</p>
+        <p id="winner">Rock Paper Scissors</p>
       </div>
 
       <div class="scores">
-        <span>YOU</span>
-        <span>0</span>
-        <SPAN>:</SPAN>
-        <span>0</span>
-        <span>AI</span>
+        <span>YOU &nbsp;</span>
+        <span id="yourpoint">0</span>
+        <SPAN>: </SPAN>
+        <span id="aipoint">0</span>
+        <span>&nbsp; AI</span>
       </div>
 
       <div class="turn">
-        <p>Your Turn !</p>
+        <p id="turn">Your Turn !</p>
       </div>
 
       <div class="pictures">
         <div class="picture">
-          <img src="assets/images/paper 1.png"><div class="choice"><div class="chosen"></div></div>
+          <img src="assets/images/paper 1.png">
+          <button onclick="paper()" class="choice"><div class="chosen"></div></button>
         </div>
 
         <div class="picture">
-          <img src="assets/images/two 1.png"><div class="choice"><div class="chosen"></div></div>
+          <img src="assets/images/two 1.png">
+          <button onclick="scissors()" class="choice"><div class="chosen"></div></button>
         </div>
 
         <div class="picture">
-          <img src="assets/images/rock 1.png"><div class="choice"><div class="chosen"></div></div>
+          <img src="assets/images/rock 1.png">
+          <button onclick="rock()"  class="choice"><div class="chosen"></div></buttons>
         </div>
 
       </div>
 
       <div class="startdiv">
-        <button class="start">START</button>
+        <button class="start" id="start" onclick="startgame()">START</button>
       </div>
 
 
